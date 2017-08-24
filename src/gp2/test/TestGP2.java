@@ -10,6 +10,9 @@ import org.junit.Test;
 
 import gp2.EjerciciosGP2;
 
+/*
+ * 
+ */
 public class TestGP2 {
 	
 	private static Random rnd = new Random();
