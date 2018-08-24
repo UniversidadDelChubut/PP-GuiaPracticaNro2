@@ -76,6 +76,7 @@ public class TestGP2 {
 		assertEquals(8.3, EjerciciosGP2.maximo(8.23, 8.2, 8.3), 0.0);
 		assertEquals(8.23, EjerciciosGP2.maximo(8.23, 8.2, 8.21), 0.0);
 		assertEquals(7, EjerciciosGP2.maximo(7, -7, 0), 0.0);
+		assertEquals(-1, EjerciciosGP2.maximo(-1, -1, -7.0), 0.0);
 		assertEquals(Double.MAX_VALUE, EjerciciosGP2.maximo(Double.MAX_VALUE, Double.MIN_VALUE), 0.0);
 		
 		assertEquals(12, EjerciciosGP2.maximo(7, -7, 0, 12));
@@ -84,6 +85,7 @@ public class TestGP2 {
 		assertEquals(12, EjerciciosGP2.maximo(12, -12, 0, 1));
 		assertEquals(12, EjerciciosGP2.maximo(-12, 12, 0, 1));
 		assertEquals(12, EjerciciosGP2.maximo(12, 12, 12, 12));
+		assertEquals(-1, EjerciciosGP2.maximo(-7, -2, -6, -1));
 		assertEquals(Integer.MIN_VALUE + 3, EjerciciosGP2.maximo(Integer.MIN_VALUE, Integer.MIN_VALUE +2 , Integer.MIN_VALUE +3 , Integer.MIN_VALUE));
 
 		
