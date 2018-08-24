@@ -141,7 +141,6 @@ public class TestGP2 {
 		assertTrue(EjerciciosGP2.esPalindromo("a"));
 		assertTrue(EjerciciosGP2.esPalindromo("4512154"));
 		assertTrue(EjerciciosGP2.esPalindromo("abba"));
-		
 	}
 
 	@Test
@@ -165,13 +164,14 @@ public class TestGP2 {
 	
 	@Test
 	public void testDiaSemana() {
-		assertEquals("domingo", EjerciciosGP2.diaSemana(1));
-		assertEquals("lunes", EjerciciosGP2.diaSemana(2));
-		assertEquals("martes", EjerciciosGP2.diaSemana(3));
-		assertEquals("miercoles", EjerciciosGP2.diaSemana(4));
-		assertEquals("jueves", EjerciciosGP2.diaSemana(5));
-		assertEquals("viernes", EjerciciosGP2.diaSemana(6));
-		assertEquals("sabado", EjerciciosGP2.diaSemana(7));
+		
+		assertEquals("lunes", EjerciciosGP2.diaSemana(1));
+		assertEquals("martes", EjerciciosGP2.diaSemana(2));
+		assertEquals("miercoles", EjerciciosGP2.diaSemana(3));
+		assertEquals("jueves", EjerciciosGP2.diaSemana(4));
+		assertEquals("viernes", EjerciciosGP2.diaSemana(5));
+		assertEquals("sabado", EjerciciosGP2.diaSemana(6));
+		assertEquals("domingo", EjerciciosGP2.diaSemana(7));
 	}
 	
 	@Test
