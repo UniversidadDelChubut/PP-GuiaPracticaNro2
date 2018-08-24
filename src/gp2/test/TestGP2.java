@@ -137,7 +137,7 @@ public class TestGP2 {
 	
 	@Test
 	public void testEsPalindromo() {
-		assertTrue(EjerciciosGP2.esPalindromo("Neuquen"));
+		assertFalse(EjerciciosGP2.esPalindromo("Neuquen"));
 		assertTrue(EjerciciosGP2.esPalindromo("a"));
 		assertTrue(EjerciciosGP2.esPalindromo("4512154"));
 		assertTrue(EjerciciosGP2.esPalindromo("abba"));
