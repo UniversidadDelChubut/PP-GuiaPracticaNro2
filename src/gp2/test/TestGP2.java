@@ -192,7 +192,7 @@ public class TestGP2 {
 
 	@Test
 	public void testEsPrimo() {
-		assertTrue(EjerciciosGP2.esPrimo(1));
+		assertFalse(EjerciciosGP2.esPrimo(1));
 		assertTrue(EjerciciosGP2.esPrimo(2));
 		assertTrue(EjerciciosGP2.esPrimo(3));
 		assertFalse(EjerciciosGP2.esPrimo(4));
@@ -404,7 +404,7 @@ public class TestGP2 {
 	
 	@Test
 	public void testEsPerfecto() {
-		assertTrue  (EjerciciosGP2.esPerfecto(1));
+		assertFalse (EjerciciosGP2.esPerfecto(1));
 		assertTrue  (EjerciciosGP2.esPerfecto(2));
 		assertFalse (EjerciciosGP2.esPerfecto(3));
 		assertTrue  (EjerciciosGP2.esPerfecto(6));
