@@ -357,7 +357,7 @@ public class TestGP2 {
 		assertEquals( "bcdefghijklmnopqrstuvwxyza", EjerciciosGP2.cifradoCesar("abcdefghijklmnopqrstuvwxyz"));
 		assertEquals( "bcdefghij klmnopqrstuvwxyza", EjerciciosGP2.cifradoCesar("abcdefghi jklmnopqrstuvwxyz"));
 		assertEquals( "ep exeuyi", EjerciciosGP2.cifradoCesar("al ataque", 4));
-		assertEquals( "kwzhm kitijihi", EjerciciosGP2.cifradoCesar("corte calabaza", 8));
+		assertEquals( "kwzbm kitijihi", EjerciciosGP2.cifradoCesar("corte calabaza", 8));
 	}
 	@Test
 	public void testEsSimetrica() {
